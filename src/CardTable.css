@@ -1,0 +1,27 @@
+body {
+    background-color: green;
+}
+
+#card-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playingCard {
+    position: absolute;
+    top: 120px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6), 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center; 
+    background-color: maroon;
+    border-radius: 1.5em;
+    color: white;
+    padding: .5em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6), 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
